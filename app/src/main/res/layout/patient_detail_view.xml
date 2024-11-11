@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:background="@color/background"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_select"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:ems="3"
+            android:gravity="center"
+            android:text=""
+            android:buttonTint="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_Patient_Id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text=" Patient ID "
+            android:textSize="16sp"
+            android:textColor="@color/TextColor1"
+            android:textStyle="bold|normal" />
+
+        <TextView
+            android:id="@+id/tv_sample_Id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text=" Sample ID "
+            android:textSize="16sp"
+            android:textColor="@color/TextColor1"
+            android:textStyle="bold|normal" />
+
+        <TextView
+            android:id="@+id/tv_MRN_No"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text=" MRN No. "
+            android:textSize="16sp"
+            android:textColor="@color/TextColor1"
+            android:textStyle="bold|normal" />
+
+        <TextView
+            android:id="@+id/tv_surgical_Site"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text=" Surgical Site "
+            android:textSize="16sp"
+            android:textColor="@color/TextColor1"
+            android:textStyle="bold|normal" />
+
+        <TextView
+            android:id="@+id/tv_Destination_lab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.98"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text=" Destination Lab "
+            android:textSize="16sp"
+            android:textColor="@color/TextColor1"
+            android:textStyle="bold|normal" />
+
+        <TextView
+            android:id="@+id/tv_Date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text=" Date "
+            android:textSize="16sp"
+            android:textColor="@color/TextColor1"
+            android:textStyle="bold|normal" />
+
+        <TextView
+            android:id="@+id/tv_ViewDetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1.02"
+            android:background="#FFFFFF"
+            android:ems="5"
+            android:text="ViewDetails"
+            android:gravity="center"
+            android:textColor="@color/TextColor1"
+            android:textStyle="bold|normal" />
+    </LinearLayout>
+
+</LinearLayout>
